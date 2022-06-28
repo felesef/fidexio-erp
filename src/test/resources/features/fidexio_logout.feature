@@ -14,7 +14,6 @@ Feature: Fidexio Logout feature
     And user clicks back arrow button
     Then  user sees "Odoo Session Expired" alert
 
-
     @Positive
     Examples: Search values we are going to be using in this scenario is as below table
       | Username                | Password     | UserID         |
