@@ -69,7 +69,7 @@ Feature: Fidexio Login feature
     When user enters username "<Username>"
     And user enters password "<Password>"
     And user clicks to login button
-    Then user stays in same page and sees "<URL>" on URL field
+    Then user stays in same page and sees "Login | Best solution for startups" as title
 
     @Negative3 #user enters empty username
     Examples: Search values we are going to be using in this scenario is as below table
