@@ -4,7 +4,7 @@ Feature: Fidexio Logout feature
   Background: User in "url" page
     Given user is on the login page of fidexio page
 
-  Scenario Outline: Positive Login Scenarios
+  Scenario Outline: Positive Logout Scenarios
     When user enters username "<Username>"
     And user enters password "<Password>"
     And user clicks to login button
