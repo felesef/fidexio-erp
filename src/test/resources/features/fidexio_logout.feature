@@ -1,9 +1,9 @@
-@FIDE-968
+
 Feature: Fidexio Logout feature
 
   Background: User in "url" page
     Given user is on the login page of fidexio page
-
+  @FIDE-984
   Scenario Outline: Positive Logout Scenarios
     When user enters username "<Username>"
     And user enters password "<Password>"
@@ -14,7 +14,7 @@ Feature: Fidexio Logout feature
     And user clicks back arrow button
     Then  user sees "Odoo Session Expired" alert
 
-    @Positive
+
     Examples: Search values we are going to be using in this scenario is as below table
       | Username                | Password     | UserID         |
       | salesmanager35@info.com | salesmanager | salesmanager35 |
