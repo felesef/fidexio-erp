@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>30 Jun 2022, 09:52</td>
+      <td>30 Jun 2022, 13:04</td>
     </tr>
   </tbody>
 </table>
@@ -127,19 +127,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@FIDE-984</td>
-          <td      class="passed"    >48</td>
-          <td >0</td>
+          <td      class="passed"    >42</td>
+          <td      class="failed"    >6</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">48</td>
 
-          <td  class="passed"    >6</td>
           <td >0</td>
+          <td  class="failed"    >6</td>
           <td class="total">6</td>
 
-          <td class="duration" data-value="31714925300">31.714</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="87555474100">1:27.555</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -171,7 +171,7 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_800350218.html">Fidexio Logout feature</a>
+      <a href="report-feature_1_800350218.html">Fidexio Logout feature</a>
     </div>
 
 
@@ -181,12 +181,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">5.132</span>
+  <span class="lead-duration duration">15.184</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Positive Logout Scenarios</span>
 
@@ -197,16 +197,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -216,7 +216,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details ">
+  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -224,7 +224,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user enters username <span class="argument">&quot;salesmanager35@info.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.072</span>
+  <span class="lead-duration duration">0.055</span>
 
 </div>
 
@@ -251,7 +251,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user enters password <span class="argument">&quot;salesmanager&quot;</span></span>
 
-  <span class="lead-duration duration">0.070</span>
+  <span class="lead-duration duration">0.034</span>
 
 </div>
 
@@ -278,7 +278,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to login button</span>
 
-  <span class="lead-duration duration">1.883</span>
+  <span class="lead-duration duration">2.271</span>
 
 </div>
 
@@ -305,7 +305,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user sees <span class="argument">&quot;salesmanager35&quot;</span> in the title</span>
 
-  <span class="lead-duration duration">1.057</span>
+  <span class="lead-duration duration">0.971</span>
 
 </div>
 
@@ -332,7 +332,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks UserID button</span>
 
-  <span class="lead-duration duration">0.060</span>
+  <span class="lead-duration duration">0.238</span>
 
 </div>
 
@@ -359,7 +359,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to Logout button</span>
 
-  <span class="lead-duration duration">1.071</span>
+  <span class="lead-duration duration">1.432</span>
 
 </div>
 
@@ -386,7 +386,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks back arrow button</span>
 
-  <span class="lead-duration duration">0.168</span>
+  <span class="lead-duration duration">0.156</span>
 
 </div>
 
@@ -409,11 +409,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">user sees <span class="argument">&quot;Odoo Session Expired&quot;</span> alert</span>
 
-  <span class="lead-duration duration">0.746</span>
+  <span class="lead-duration duration">10.024</span>
 
 </div>
 
@@ -421,6 +421,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //h4[@class='modal-title']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEHMET', ip: '192.168.19.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 1732, moz:profile: C:\Users\Mehmet\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4c32bf90-298a-4015-be50-b2c3d110e230
+*** Element info: {Using=xpath, value=//h4[@class='modal-title']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
+	at com.cydeo.step_definitions.FidexioLogin_StepDefinitions.userSeesMessage(FidexioLogin_StepDefinitions.java:92)
+	at &#10045;.user sees &quot;Odoo Session Expired&quot; alert(file:///C:/Users/Mehmet/IdeaProjects/fidexio-erp/src/test/resources/features/fidexio_logout.feature:15)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -440,7 +478,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-3">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -452,13 +490,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-3" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.cydeo.step_definitions.Hooks.teardownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.704</span>
+  <span class="lead-duration duration">0.734</span>
 
           </div>
 
@@ -469,15 +507,15 @@ $(document).ready(function() {
 
   <div class="embeddings inner-level">
   <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-4" class="collapsable-control">
+    <div data-toggle="collapse" data-target="#embedding-5" class="collapsable-control">
       <a>Positive Logout Scenarios</a>
-      <a href="embeddings/embedding_-614284948.png" download target="_blank">
+      <a href="embeddings/embedding_-789862415.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
-    <div id="embedding-4" class="collapse collapsable-details ">
+    <div id="embedding-5" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_-614284948.png">
+        <img src="embeddings/embedding_-789862415.png">
       </div>
     </div>
   </div>
@@ -494,7 +532,7 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_800350218.html">Fidexio Logout feature</a>
+      <a href="report-feature_1_800350218.html">Fidexio Logout feature</a>
     </div>
 
 
@@ -504,12 +542,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">5.888</span>
+  <span class="lead-duration duration">14.488</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-6">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Positive Logout Scenarios</span>
 
@@ -520,16 +558,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-5" class="collapse collapsable-details ">
+  <div id="element-6" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-6">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-7">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -539,7 +577,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-6" class="inner-level collapse collapsable-details ">
+  <div id="steps-7" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -547,7 +585,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user enters username <span class="argument">&quot;salesmanager25@info.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.058</span>
+  <span class="lead-duration duration">0.052</span>
 
 </div>
 
@@ -574,7 +612,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user enters password <span class="argument">&quot;salesmanager&quot;</span></span>
 
-  <span class="lead-duration duration">0.071</span>
+  <span class="lead-duration duration">0.043</span>
 
 </div>
 
@@ -601,7 +639,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to login button</span>
 
-  <span class="lead-duration duration">2.224</span>
+  <span class="lead-duration duration">1.889</span>
 
 </div>
 
@@ -628,7 +666,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user sees <span class="argument">&quot;salesmanager25&quot;</span> in the title</span>
 
-  <span class="lead-duration duration">1.234</span>
+  <span class="lead-duration duration">1.048</span>
 
 </div>
 
@@ -655,7 +693,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks UserID button</span>
 
-  <span class="lead-duration duration">0.049</span>
+  <span class="lead-duration duration">0.232</span>
 
 </div>
 
@@ -682,7 +720,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to Logout button</span>
 
-  <span class="lead-duration duration">1.371</span>
+  <span class="lead-duration duration">1.035</span>
 
 </div>
 
@@ -709,7 +747,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks back arrow button</span>
 
-  <span class="lead-duration duration">0.151</span>
+  <span class="lead-duration duration">0.159</span>
 
 </div>
 
@@ -732,11 +770,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">user sees <span class="argument">&quot;Odoo Session Expired&quot;</span> alert</span>
 
-  <span class="lead-duration duration">0.726</span>
+  <span class="lead-duration duration">10.027</span>
 
 </div>
 
@@ -744,6 +782,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-8">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-8" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //h4[@class='modal-title']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEHMET', ip: '192.168.19.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 18288, moz:profile: C:\Users\Mehmet\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 26a36232-e3d9-4669-97d6-93376a2ae835
+*** Element info: {Using=xpath, value=//h4[@class='modal-title']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
+	at com.cydeo.step_definitions.FidexioLogin_StepDefinitions.userSeesMessage(FidexioLogin_StepDefinitions.java:92)
+	at &#10045;.user sees &quot;Odoo Session Expired&quot; alert(file:///C:/Users/Mehmet/IdeaProjects/fidexio-erp/src/test/resources/features/fidexio_logout.feature:15)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -763,7 +839,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-7">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-9">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -775,13 +851,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-7" class="inner-level collapse collapsable-details ">
+    <div id="after-9" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.cydeo.step_definitions.Hooks.teardownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.719</span>
+  <span class="lead-duration duration">0.733</span>
 
           </div>
 
@@ -792,15 +868,15 @@ $(document).ready(function() {
 
   <div class="embeddings inner-level">
   <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-8" class="collapsable-control">
+    <div data-toggle="collapse" data-target="#embedding-10" class="collapsable-control">
       <a>Positive Logout Scenarios</a>
-      <a href="embeddings/embedding_-1915079749.png" download target="_blank">
+      <a href="embeddings/embedding_-789862415.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
-    <div id="embedding-8" class="collapse collapsable-details ">
+    <div id="embedding-10" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_-1915079749.png">
+        <img src="embeddings/embedding_-789862415.png">
       </div>
     </div>
   </div>
@@ -817,7 +893,7 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_800350218.html">Fidexio Logout feature</a>
+      <a href="report-feature_1_800350218.html">Fidexio Logout feature</a>
     </div>
 
 
@@ -827,12 +903,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">5.143</span>
+  <span class="lead-duration duration">14.496</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-11">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Positive Logout Scenarios</span>
 
@@ -843,16 +919,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-9" class="collapse collapsable-details ">
+  <div id="element-11" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-10">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-12">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -862,7 +938,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-10" class="inner-level collapse collapsable-details ">
+  <div id="steps-12" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -870,7 +946,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user enters username <span class="argument">&quot;salesmanager55@info.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.063</span>
+  <span class="lead-duration duration">0.054</span>
 
 </div>
 
@@ -897,7 +973,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user enters password <span class="argument">&quot;salesmanager&quot;</span></span>
 
-  <span class="lead-duration duration">0.071</span>
+  <span class="lead-duration duration">0.033</span>
 
 </div>
 
@@ -924,7 +1000,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to login button</span>
 
-  <span class="lead-duration duration">1.948</span>
+  <span class="lead-duration duration">1.867</span>
 
 </div>
 
@@ -951,7 +1027,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user sees <span class="argument">&quot;salesmanager55&quot;</span> in the title</span>
 
-  <span class="lead-duration duration">1.162</span>
+  <span class="lead-duration duration">1.101</span>
 
 </div>
 
@@ -978,7 +1054,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks UserID button</span>
 
-  <span class="lead-duration duration">0.059</span>
+  <span class="lead-duration duration">0.239</span>
 
 </div>
 
@@ -1005,7 +1081,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to Logout button</span>
 
-  <span class="lead-duration duration">0.963</span>
+  <span class="lead-duration duration">1.013</span>
 
 </div>
 
@@ -1032,7 +1108,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks back arrow button</span>
 
-  <span class="lead-duration duration">0.148</span>
+  <span class="lead-duration duration">0.166</span>
 
 </div>
 
@@ -1055,11 +1131,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">user sees <span class="argument">&quot;Odoo Session Expired&quot;</span> alert</span>
 
-  <span class="lead-duration duration">0.726</span>
+  <span class="lead-duration duration">10.019</span>
 
 </div>
 
@@ -1067,6 +1143,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-13">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-13" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //h4[@class='modal-title']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEHMET', ip: '192.168.19.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17500, moz:profile: C:\Users\Mehmet\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7cc63d8e-6d9d-45c7-adc8-74fcb157b7e3
+*** Element info: {Using=xpath, value=//h4[@class='modal-title']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
+	at com.cydeo.step_definitions.FidexioLogin_StepDefinitions.userSeesMessage(FidexioLogin_StepDefinitions.java:92)
+	at &#10045;.user sees &quot;Odoo Session Expired&quot; alert(file:///C:/Users/Mehmet/IdeaProjects/fidexio-erp/src/test/resources/features/fidexio_logout.feature:15)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -1086,7 +1200,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-11">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-14">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1098,13 +1212,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-11" class="inner-level collapse collapsable-details ">
+    <div id="after-14" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.cydeo.step_definitions.Hooks.teardownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.731</span>
+  <span class="lead-duration duration">0.726</span>
 
           </div>
 
@@ -1115,15 +1229,15 @@ $(document).ready(function() {
 
   <div class="embeddings inner-level">
   <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-12" class="collapsable-control">
+    <div data-toggle="collapse" data-target="#embedding-15" class="collapsable-control">
       <a>Positive Logout Scenarios</a>
-      <a href="embeddings/embedding_578557716.png" download target="_blank">
+      <a href="embeddings/embedding_-789862415.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
-    <div id="embedding-12" class="collapse collapsable-details ">
+    <div id="embedding-15" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_578557716.png">
+        <img src="embeddings/embedding_-789862415.png">
       </div>
     </div>
   </div>
@@ -1140,7 +1254,7 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_800350218.html">Fidexio Logout feature</a>
+      <a href="report-feature_1_800350218.html">Fidexio Logout feature</a>
     </div>
 
 
@@ -1150,12 +1264,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">5.184</span>
+  <span class="lead-duration duration">14.565</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-16">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Positive Logout Scenarios</span>
 
@@ -1166,16 +1280,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-13" class="collapse collapsable-details ">
+  <div id="element-16" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-14">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-17">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1185,7 +1299,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-14" class="inner-level collapse collapsable-details ">
+  <div id="steps-17" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -1193,7 +1307,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user enters username <span class="argument">&quot;posmanager35@info.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.059</span>
+  <span class="lead-duration duration">0.067</span>
 
 </div>
 
@@ -1220,7 +1334,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user enters password <span class="argument">&quot;posmanager&quot;</span></span>
 
-  <span class="lead-duration duration">0.069</span>
+  <span class="lead-duration duration">0.030</span>
 
 </div>
 
@@ -1247,7 +1361,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to login button</span>
 
-  <span class="lead-duration duration">2.033</span>
+  <span class="lead-duration duration">2.011</span>
 
 </div>
 
@@ -1274,7 +1388,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user sees <span class="argument">&quot;posmanager35&quot;</span> in the title</span>
 
-  <span class="lead-duration duration">1.028</span>
+  <span class="lead-duration duration">0.988</span>
 
 </div>
 
@@ -1301,7 +1415,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks UserID button</span>
 
-  <span class="lead-duration duration">0.066</span>
+  <span class="lead-duration duration">0.229</span>
 
 </div>
 
@@ -1328,7 +1442,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to Logout button</span>
 
-  <span class="lead-duration duration">0.993</span>
+  <span class="lead-duration duration">1.046</span>
 
 </div>
 
@@ -1355,7 +1469,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks back arrow button</span>
 
-  <span class="lead-duration duration">0.143</span>
+  <span class="lead-duration duration">0.161</span>
 
 </div>
 
@@ -1378,11 +1492,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">user sees <span class="argument">&quot;Odoo Session Expired&quot;</span> alert</span>
 
-  <span class="lead-duration duration">0.790</span>
+  <span class="lead-duration duration">10.028</span>
 
 </div>
 
@@ -1391,328 +1505,43 @@ $(document).ready(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-18">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
       </div>
-  </div>
-</div>
-
-
-
-
-  <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-15">
-
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-    </div>
-
-    <div id="after-15" class="inner-level collapse collapsable-details ">
-        <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-              <span class="location name">com.cydeo.step_definitions.Hooks.teardownScenario(io.cucumber.java.Scenario)</span>
-
-  <span class="lead-duration duration">0.697</span>
-
-          </div>
-
-
-
-
-
-
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-16" class="collapsable-control">
-      <a>Positive Logout Scenarios</a>
-      <a href="embeddings/embedding_1219691156.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-16" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_1219691156.png">
+      <div id="msg-18" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //h4[@class='modal-title']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEHMET', ip: '192.168.19.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 17536, moz:profile: C:\Users\Mehmet\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bed1c5ea-a9db-48c0-bf20-89fcf664e968
+*** Element info: {Using=xpath, value=//h4[@class='modal-title']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
+	at com.cydeo.step_definitions.FidexioLogin_StepDefinitions.userSeesMessage(FidexioLogin_StepDefinitions.java:92)
+	at &#10045;.user sees &quot;Odoo Session Expired&quot; alert(file:///C:/Users/Mehmet/IdeaProjects/fidexio-erp/src/test/resources/features/fidexio_logout.feature:15)
+</pre>
       </div>
     </div>
   </div>
-  </div>
-
-        </div>
-    </div>
-  </div>
-
-  </div>
-</div>
-
-
-<div class="element">
-    <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_800350218.html">Fidexio Logout feature</a>
-    </div>
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_2252348523.html">@FIDE-984</a>
-</div>
-
-
-  <span class="lead-duration duration">5.429</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-17">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Positive Logout Scenarios</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-17" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-18">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-18" class="inner-level collapse collapsable-details ">
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">user enters username <span class="argument">&quot;posmanager75@info.com&quot;</span></span>
-
-  <span class="lead-duration duration">0.066</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user enters password <span class="argument">&quot;posmanager&quot;</span></span>
-
-  <span class="lead-duration duration">0.070</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user clicks to login button</span>
-
-  <span class="lead-duration duration">1.946</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user sees <span class="argument">&quot;posmanager75&quot;</span> in the title</span>
-
-  <span class="lead-duration duration">0.964</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user clicks UserID button</span>
-
-  <span class="lead-duration duration">0.061</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user clicks to Logout button</span>
-
-  <span class="lead-duration duration">1.442</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">user clicks back arrow button</span>
-
-  <span class="lead-duration duration">0.157</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">user sees <span class="argument">&quot;Odoo Session Expired&quot;</span> alert</span>
-
-  <span class="lead-duration duration">0.721</span>
-
-</div>
-
-
-
-
-
 
 
 
@@ -1750,7 +1579,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">com.cydeo.step_definitions.Hooks.teardownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.693</span>
+  <span class="lead-duration duration">0.733</span>
 
           </div>
 
@@ -1763,13 +1592,13 @@ $(document).ready(function() {
   <div class="embedding indention">
     <div data-toggle="collapse" data-target="#embedding-20" class="collapsable-control">
       <a>Positive Logout Scenarios</a>
-      <a href="embeddings/embedding_-259320132.png" download target="_blank">
+      <a href="embeddings/embedding_-789862415.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
     <div id="embedding-20" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_-259320132.png">
+        <img src="embeddings/embedding_-789862415.png">
       </div>
     </div>
   </div>
@@ -1786,7 +1615,7 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_800350218.html">Fidexio Logout feature</a>
+      <a href="report-feature_1_800350218.html">Fidexio Logout feature</a>
     </div>
 
 
@@ -1796,12 +1625,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">4.934</span>
+  <span class="lead-duration duration">14.497</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-21">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-21">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Positive Logout Scenarios</span>
 
@@ -1812,16 +1641,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-21" class="collapse collapsable-details ">
+  <div id="element-21" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-22">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-22">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -1831,15 +1660,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-22" class="inner-level collapse collapsable-details ">
+  <div id="steps-22" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
 <div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
-  <span class="name">user enters username <span class="argument">&quot;posmanager101@info.com&quot;</span></span>
+  <span class="name">user enters username <span class="argument">&quot;posmanager75@info.com&quot;</span></span>
 
-  <span class="lead-duration duration">0.065</span>
+  <span class="lead-duration duration">0.043</span>
 
 </div>
 
@@ -1866,7 +1695,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user enters password <span class="argument">&quot;posmanager&quot;</span></span>
 
-  <span class="lead-duration duration">0.067</span>
+  <span class="lead-duration duration">0.036</span>
 
 </div>
 
@@ -1893,7 +1722,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to login button</span>
 
-  <span class="lead-duration duration">1.950</span>
+  <span class="lead-duration duration">1.982</span>
 
 </div>
 
@@ -1918,9 +1747,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">user sees <span class="argument">&quot;posmanager101&quot;</span> in the title</span>
+  <span class="name">user sees <span class="argument">&quot;posmanager75&quot;</span> in the title</span>
 
-  <span class="lead-duration duration">0.964</span>
+  <span class="lead-duration duration">0.962</span>
 
 </div>
 
@@ -1947,7 +1776,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks UserID button</span>
 
-  <span class="lead-duration duration">0.063</span>
+  <span class="lead-duration duration">0.241</span>
 
 </div>
 
@@ -1974,7 +1803,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to Logout button</span>
 
-  <span class="lead-duration duration">0.954</span>
+  <span class="lead-duration duration">1.030</span>
 
 </div>
 
@@ -2001,7 +1830,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks back arrow button</span>
 
-  <span class="lead-duration duration">0.152</span>
+  <span class="lead-duration duration">0.169</span>
 
 </div>
 
@@ -2024,11 +1853,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">user sees <span class="argument">&quot;Odoo Session Expired&quot;</span> alert</span>
 
-  <span class="lead-duration duration">0.716</span>
+  <span class="lead-duration duration">10.029</span>
 
 </div>
 
@@ -2036,6 +1865,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-23">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-23" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //h4[@class='modal-title']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEHMET', ip: '192.168.19.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 15980, moz:profile: C:\Users\Mehmet\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 95c5bd07-00c9-46be-bb0e-78c662fa10a5
+*** Element info: {Using=xpath, value=//h4[@class='modal-title']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
+	at com.cydeo.step_definitions.FidexioLogin_StepDefinitions.userSeesMessage(FidexioLogin_StepDefinitions.java:92)
+	at &#10045;.user sees &quot;Odoo Session Expired&quot; alert(file:///C:/Users/Mehmet/IdeaProjects/fidexio-erp/src/test/resources/features/fidexio_logout.feature:15)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -2055,7 +1922,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-23">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-24">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2067,13 +1934,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-23" class="inner-level collapse collapsable-details ">
+    <div id="after-24" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.cydeo.step_definitions.Hooks.teardownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.702</span>
+  <span class="lead-duration duration">0.737</span>
 
           </div>
 
@@ -2084,15 +1951,376 @@ $(document).ready(function() {
 
   <div class="embeddings inner-level">
   <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-24" class="collapsable-control">
+    <div data-toggle="collapse" data-target="#embedding-25" class="collapsable-control">
       <a>Positive Logout Scenarios</a>
-      <a href="embeddings/embedding_852319878.png" download target="_blank">
+      <a href="embeddings/embedding_-789862415.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
-    <div id="embedding-24" class="collapse collapsable-details ">
+    <div id="embedding-25" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_852319878.png">
+        <img src="embeddings/embedding_-789862415.png">
+      </div>
+    </div>
+  </div>
+  </div>
+
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_1_800350218.html">Fidexio Logout feature</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2252348523.html">@FIDE-984</a>
+</div>
+
+
+  <span class="lead-duration duration">14.323</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-26">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Positive Logout Scenarios</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-26" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-27">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-27" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">user enters username <span class="argument">&quot;posmanager101@info.com&quot;</span></span>
+
+  <span class="lead-duration duration">0.050</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user enters password <span class="argument">&quot;posmanager&quot;</span></span>
+
+  <span class="lead-duration duration">0.030</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks to login button</span>
+
+  <span class="lead-duration duration">1.848</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user sees <span class="argument">&quot;posmanager101&quot;</span> in the title</span>
+
+  <span class="lead-duration duration">0.955</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks UserID button</span>
+
+  <span class="lead-duration duration">0.233</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks to Logout button</span>
+
+  <span class="lead-duration duration">1.015</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">user clicks back arrow button</span>
+
+  <span class="lead-duration duration">0.169</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">user sees <span class="argument">&quot;Odoo Session Expired&quot;</span> alert</span>
+
+  <span class="lead-duration duration">10.020</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-28">
+          <a>org.openqa.selenium.NoSuchElementException:</a>
+      </div>
+      <div id="msg-28" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //h4[@class='modal-title']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEHMET', ip: '192.168.19.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 6232, moz:profile: C:\Users\Mehmet\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 54d99d54-d0e7-4fae-a5ee-38272364e9f3
+*** Element info: {Using=xpath, value=//h4[@class='modal-title']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
+	at com.cydeo.step_definitions.FidexioLogin_StepDefinitions.userSeesMessage(FidexioLogin_StepDefinitions.java:92)
+	at &#10045;.user sees &quot;Odoo Session Expired&quot; alert(file:///C:/Users/Mehmet/IdeaProjects/fidexio-erp/src/test/resources/features/fidexio_logout.feature:15)
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+  <div class="inner-level hooks-element-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-29">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="after-29" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+              <span class="location name">com.cydeo.step_definitions.Hooks.teardownScenario(io.cucumber.java.Scenario)</span>
+
+  <span class="lead-duration duration">0.730</span>
+
+          </div>
+
+
+
+
+
+
+  <div class="embeddings inner-level">
+  <div class="embedding indention">
+    <div data-toggle="collapse" data-target="#embedding-30" class="collapsable-control">
+      <a>Positive Logout Scenarios</a>
+      <a href="embeddings/embedding_-789862415.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-30" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_-789862415.png">
       </div>
     </div>
   </div>

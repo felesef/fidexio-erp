@@ -1,4 +1,4 @@
-@FIDE-983
+@FIDE-983 @smoke
 Feature: Fidexio Login feature
 
   Background: User in "url" page
