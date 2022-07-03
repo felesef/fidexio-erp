@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>30 Jun 2022, 13:04</td>
+      <td>03 Jul 2022, 20:29</td>
     </tr>
   </tbody>
 </table>
@@ -127,19 +127,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@FIDE-980</td>
-          <td      class="passed"    >8</td>
-          <td >0</td>
+          <td      class="passed"    >6</td>
+          <td      class="failed"    >2</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">8</td>
 
-          <td  class="passed"    >2</td>
           <td >0</td>
+          <td  class="failed"    >2</td>
           <td class="total">2</td>
 
-          <td class="duration" data-value="668531200">0.668</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="570237100">0.570</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -178,16 +178,17 @@ $(document).ready(function() {
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_2252348522.html">@FIDE-983</a>
+       <a href="report-tag_4089311534.html">@smoke</a>
        <a href="report-tag_2252348519.html">@FIDE-980</a>
 </div>
 
 
-  <span class="lead-duration duration">0.341</span>
+  <span class="lead-duration duration">0.292</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Negative Login Scenario with empty username credentials</span>
 
@@ -198,16 +199,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -217,7 +218,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details ">
+  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -225,7 +226,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user enters username <span class="argument">&quot;&quot;</span></span>
 
-  <span class="lead-duration duration">0.033</span>
+  <span class="lead-duration duration">0.062</span>
 
 </div>
 
@@ -252,7 +253,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user enters password <span class="argument">&quot;salesmanager&quot;</span></span>
 
-  <span class="lead-duration duration">0.047</span>
+  <span class="lead-duration duration">0.075</span>
 
 </div>
 
@@ -279,7 +280,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to login button</span>
 
-  <span class="lead-duration duration">0.253</span>
+  <span class="lead-duration duration">0.085</span>
 
 </div>
 
@@ -302,11 +303,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">user stays in same page and sees <span class="argument">&quot;Login | Best solution for startups&quot;</span> as title</span>
 
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.068</span>
 
 </div>
 
@@ -314,6 +315,22 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: expected:&lt;[Please fill out this field.]&gt; but was:&lt;[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cydeo.step_definitions.FidexioLogin_StepDefinitions.userStaysInSamePageAndSeesAsTitle(FidexioLogin_StepDefinitions.java:76)
+	at &#10045;.user stays in same page and sees &quot;Login | Best solution for startups&quot; as title(file:///C:/Users/Mehmet/IdeaProjects/fidexio-erp/src/test/resources/features/fidexio_login.feature:63)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -333,7 +350,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-3">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -345,13 +362,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-3" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.cydeo.step_definitions.Hooks.teardownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.704</span>
+  <span class="lead-duration duration">1.010</span>
 
           </div>
 
@@ -362,15 +379,15 @@ $(document).ready(function() {
 
   <div class="embeddings inner-level">
   <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-4" class="collapsable-control">
+    <div data-toggle="collapse" data-target="#embedding-5" class="collapsable-control">
       <a>Negative Login Scenario with empty username credentials</a>
-      <a href="embeddings/embedding_840771480.png" download target="_blank">
+      <a href="embeddings/embedding_-602108497.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
-    <div id="embedding-4" class="collapse collapsable-details ">
+    <div id="embedding-5" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_840771480.png">
+        <img src="embeddings/embedding_-602108497.png">
       </div>
     </div>
   </div>
@@ -394,16 +411,17 @@ $(document).ready(function() {
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_2252348522.html">@FIDE-983</a>
+       <a href="report-tag_4089311534.html">@smoke</a>
        <a href="report-tag_2252348519.html">@FIDE-980</a>
 </div>
 
 
-  <span class="lead-duration duration">0.327</span>
+  <span class="lead-duration duration">0.278</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-6">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Negative Login Scenario with empty username credentials</span>
 
@@ -414,16 +432,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-5" class="collapse collapsable-details ">
+  <div id="element-6" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-6">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-7">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -433,7 +451,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-6" class="inner-level collapse collapsable-details ">
+  <div id="steps-7" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -441,7 +459,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user enters username <span class="argument">&quot;&quot;</span></span>
 
-  <span class="lead-duration duration">0.030</span>
+  <span class="lead-duration duration">0.048</span>
 
 </div>
 
@@ -468,7 +486,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user enters password <span class="argument">&quot;posmanager&quot;</span></span>
 
-  <span class="lead-duration duration">0.038</span>
+  <span class="lead-duration duration">0.072</span>
 
 </div>
 
@@ -495,7 +513,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks to login button</span>
 
-  <span class="lead-duration duration">0.254</span>
+  <span class="lead-duration duration">0.099</span>
 
 </div>
 
@@ -518,11 +536,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">user stays in same page and sees <span class="argument">&quot;Login | Best solution for startups&quot;</span> as title</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.057</span>
 
 </div>
 
@@ -530,6 +548,22 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-8">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-8" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: expected:&lt;[Please fill out this field.]&gt; but was:&lt;[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.cydeo.step_definitions.FidexioLogin_StepDefinitions.userStaysInSamePageAndSeesAsTitle(FidexioLogin_StepDefinitions.java:76)
+	at &#10045;.user stays in same page and sees &quot;Login | Best solution for startups&quot; as title(file:///C:/Users/Mehmet/IdeaProjects/fidexio-erp/src/test/resources/features/fidexio_login.feature:63)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -549,7 +583,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-7">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-9">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -561,13 +595,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-7" class="inner-level collapse collapsable-details ">
+    <div id="after-9" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.cydeo.step_definitions.Hooks.teardownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.709</span>
+  <span class="lead-duration duration">0.912</span>
 
           </div>
 
@@ -578,15 +612,15 @@ $(document).ready(function() {
 
   <div class="embeddings inner-level">
   <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-8" class="collapsable-control">
+    <div data-toggle="collapse" data-target="#embedding-10" class="collapsable-control">
       <a>Negative Login Scenario with empty username credentials</a>
-      <a href="embeddings/embedding_317973380.png" download target="_blank">
+      <a href="embeddings/embedding_1533508126.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
-    <div id="embedding-8" class="collapse collapsable-details ">
+    <div id="embedding-10" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_317973380.png">
+        <img src="embeddings/embedding_1533508126.png">
       </div>
     </div>
   </div>

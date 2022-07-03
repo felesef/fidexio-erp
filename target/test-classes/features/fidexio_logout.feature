@@ -1,4 +1,4 @@
-
+@smoke
 Feature: Fidexio Logout feature
 
   Background: User in "url" page
