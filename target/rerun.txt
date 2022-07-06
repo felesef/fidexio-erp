@@ -1,2 +1,0 @@
-file:src/test/resources/features/fidexio_login.feature:18:20:21
-file:src/test/resources/features/fidexio_logout.feature:22:23:25
