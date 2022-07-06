@@ -47,6 +47,14 @@ public class Driver {
             */
             switch (browserType){
                 case "chrome":
+                    ChromeOptions chromeOptions = new ChromeOptions();
+                    chromeOptions.addArguments("--disable-gpu");
+                    chromeOptions.addArguments("--disable-extensions");
+                    chromeOptions.addArguments("--disable-popup-blocking");
+                    chromeOptions.addArguments("--disable-infobar");
+//                    chromeOptions.addArguments("--window-size=1440,900");
+                    chromeOptions.addArguments("--disable-dev-shm-usage");
+                    chromeOptions.addArguments("--allow-insecure-localhost");
                     WebDriverManager.chromedriver().setup();
                     driverPool.set(new ChromeDriver());
                     driverPool.get().manage().window().maximize();
