@@ -71,9 +71,9 @@ public class FidexioLogin_StepDefinitions {
 
     @Then("user stays in same page and sees {string} as title")
     public void userStaysInSamePageAndSeesAsTitle(String Title) {
-//        String actualErrorMessage= fidexioErpPage.passwordInput.getAttribute("validationMessage");
-//        System.out.println("fidexioErpPage.passwordInput.getAttribute(\"validationMessage\") = " + fidexioErpPage.passwordInput.getAttribute("validationMessage"));
-//        Assert.assertEquals("Please fill out this field.",actualErrorMessage );
+        String actualErrorMessage= fidexioErpPage.passwordInput.getAttribute("validationMessage");
+        System.out.println("fidexioErpPage.passwordInput.getAttribute(\"validationMessage\") = " + fidexioErpPage.passwordInput.getAttribute("validationMessage"));
+        Assert.assertEquals("Please fill out this field.",actualErrorMessage );
         BrowserUtils.verifyTitle(Title);
     }
 

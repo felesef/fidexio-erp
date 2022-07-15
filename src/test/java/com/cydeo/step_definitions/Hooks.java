@@ -11,6 +11,8 @@ import io.cucumber.java.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import java.util.concurrent.TimeUnit;
+
 public class Hooks {
 
     //import from io.cucumber.java not from junit
@@ -27,6 +29,13 @@ public class Hooks {
     //@Before (value = "@db", order = 0)
     public void setupForDatabaseScenarios(){
         System.out.println("====this will only apply to scenarios with @db tag");
+    }
+    @Before
+    public void setUp(){
+        System.out.println("\tthis is coming from BEFORE");
+        Driver.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        Driver.getDriver().manage().window().maximize();
+
     }
 
 
